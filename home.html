@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!-- link of bootstrap -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<!-- link of css -->
+   <link rel="stylesheet" href="css\style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- link of icon -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <!-- link of poppins font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,400;1,500;1,800&display=swap" rel="stylesheet">
+<!-- aos library animation link -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<!-- w3 responsive link -->
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>home page</title>
+    <style>
+      body{
+          background-color: azure;
+      }
+
+      .button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color:cornflowerblue;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 18px;
+  padding: 15px;
+  width: 170px;
+  transition: all 0.1s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.1s;
+}
+
+.button:hover span {
+  padding-right: 15px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+ }
+
+.F_IMG{
+margin-top: 25px;
+margin-bottom: 25px;
+  width: 40px;
+}
+
+.f_para{
+  margin-bottom: 47px;
+}
+.f_page *{
+  color: #FFFFFF;
+  font-family: poppins;
+margin-left: 20px;
+}
+
+.firsthead{
+  color: #152345 ;
+}
+
+@media (max-width: 560px)
+{
+  .F_IMG{
+margin-top: 25px !important;
+margin-bottom: 15px !important;
+  width: 30px !important;
+}
+
+.f_page *{
+font-size: 13px !important;
+margin-top: 10px !important;
+}
+
+
+.button {
+  font-size: 10px !important;
+  padding: 5px !important;
+  width: 120px !important;
+  display: inline-block !important;
+}
+
+.first_page{
+  width: 100% !important;
+  
+}
+}
+
+
+  </style>
+  </head>
+  <body>
+    <div class="first_page">
+    <div class="header">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+           <img src="img\ISAlogo.2.png" alt="">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="fa fa-bars"></span>
+              </button>
+
+              <div class="collapse navbar-collapse navbar-bg-set" id="navbarNavDropdown">
+
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle mobile-about-padding" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          About
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <li><a class="dropdown-item" href="aboutus.html">About us</a></li>
+                          <li><a class="dropdown-item" href="mentor.html">About Mentor</a></li>
+                          <li><a class="dropdown-item" href="ourstudent.html">ISA Student</a></li>
+                        </ul>
+                      </li>  
+                  <li class="nav-item">
+                    <a class="nav-link mx-3" aria-current="page" href="teacmethodology.html">Our Teaching Methodology</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link mx-3" href="studentwork.html">Our student Work</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle mobile-about-padding" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Syllabus
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="digital.html">Digital Marketing</a></li>
+                      <li><a class="dropdown-item" href="gap.html">Gap Professional Course</a></li>
+                      <li><a class="dropdown-item" href="graphic.html">Graphic Designing</a></li>
+                      <li><a class="dropdown-item" href="cmpbasic.html">Computer Basic</a></li>
+                      <li><a class="dropdown-item" href="website.html">Website Designing</a></li>
+                    </ul>
+                  </li>  
+                  <li class="nav-item">
+                    <a class="nav-link mx-3" href="registrationform.html">Student Registration Form</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link mx-3" href="workshop.html">Workshop</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+
+
+        <div class="top_desighn" data-aos="fade-right">
+          <a href="https://www.facebook.com/academy.internetspace">
+            <img  class="common" src="img\fb.png" alt="">
+          </a>
+
+          <a href="https://api.whatsapp.com/message/MD3M7BFJWCGKD1?autoload=1&app_absent=0">
+            <img  class="common" src="img\whatsapp.png" alt="">
+          </a>
+
+          <a href="https://www.youtube.com/@academy.internetspace">
+            <img  class="common" src="img\youtube.png" alt="">
+          </a>
+
+          <a href="https://www.snapchat.com/add/internet_space">
+            <img  class="common" src="img\snapchat (1).png" alt="">
+          </a>
+
+          <a href="https://www.instagram.com/academy.internetspace">
+            <img  class="common" src="img\instagram (1).png" alt="">
+          </a>
+        </div>
+
+        <div class="mid-desighn">
+            
+          <div data-aos="zoom-in-up">
+            <img class="m-img" src="img\computer (1).png" alt="">
+            <p class="m-para">100% Practical Course</p>
+           </div>
+
+           <div  data-aos="zoom-in-up">
+            <img class="m-img" src="img\internship.png" alt="">
+            <p class="m-para">Internship Opportunities</p>
+           </div>
+
+           <div data-aos="zoom-in-up" >
+            <img class="m-img" src="img\job-offer.png" alt="">
+            <p class="m-para">100% Job Assistance after Course Completion </p>
+           </div>
+
+           <div data-aos="zoom-in-up" >
+            <img class="m-img" src="img\learning.png" alt="">
+            <p class="m-para"> Digital Classroom with Provide Great Learning's</p>
+           </div>
+
+           <div data-aos="zoom-in-up">
+            <img class="m-img" src="img\doubt.png" alt="">
+            <p class="m-para"> One to One Doubt Sessions for Better Understanding</p>
+           </div>
+
+           <div data-aos="zoom-in-up">
+            <img class="m-img" src="img\practical.png" alt="">
+            <p class="m-para"> Non Technical Student Can Do This Course  </p>
+           </div>
+
+           <div data-aos="zoom-in-up">
+            <img class="m-img" src="img\college.png" alt="">
+            <p class="m-para"> Flexible Timming for College Attending & Non Attending Students
+            </p>
+           </div>
+
+           <div data-aos="zoom-in-up">
+            <img class="m-img" src="img\service.png" alt="">
+            <p class="m-para"> Business Owner/ Entrepreneur Can
+              do this Course to promote their Product/Services
+              </p>
+           </div>
+
+           <div data-aos="zoom-in-up">
+            <img class="m-img" src="img\classroom.png" alt="">
+            <p class="m-para"> 4 Hours Of Offline Class Room Training</p>
+           </div>
+        </div>
+
+
+        
+<div class="container">
+  <h1  class="about text-center mt-5 text-white bg-dark"> Academy <span style="color:#00D1ff ;">Highlights </span> </h1>
+  <div class="row">
+    <div class="col-lg-6 p-5 text-dark "  data-aos="fade-right" >
+      <p class="firsthead  fs-2 fw-bolder">Comprehensive Curriculum </p>   
+     <p class="firsthead  fs-2 fw-bolder"  >Expert educators</p>   
+     <p class="firsthead  fs-2 fw-bolder" >Practical Education</p>   
+     <p class="firsthead  fs-2 fw-bolder" >Community Support</p>   
+     <p class="firsthead  fs-2 fw-bolder"  >Career Opportunities</p>   
+
+    </div>
+    <div class="col-lg-6 p-3  text-white"  data-aos="fade-left"  >
+      <img src="img\Photo Collage.png" width="100%">
+    </div>
+  </div>
+</div>
+
+        <div class="w3-container-fluid  f_page text-center mt-4 me-0"  >
+          <img class="f_img mt-5"  data-aos="zoom-in-up" data-aos-offset="100" src="img\icon.png" alt="">
+          <h2 style="font-weight:bolder;" class="p-2"  data-aos="zoom-in-up" data-aos-offset="100"  data-aos-delay="100">Internet Space Academy</h2>
+          <!-- <p class="w3-large">Try to resize the window!</p> -->
+      
+        
+        <div class="w3-row f_home">
+          <div class="w3-col w3-container-fluid f_page m5 l5 mt-1" >
+            
+            <h1 class="text-start"   data-aos="zoom-in-up" data-aos-offset="100"   >BLOGS</h1>
+            <p  align="justify" data-aos="zoom-in-up" data-aos-offset="100" >Home</p>
+            <p  align="justify" data-aos="zoom-in-up" data-aos-offset="100"  >About us</p>
+            <p  align="justify" data-aos="zoom-in-up" data-aos-offset="100" >About Mentor</p>
+            <p  align="justify" data-aos="zoom-in-up" data-aos-offset="100" >ISA Student</p>
+            <p  align="justify" data-aos="zoom-in-up" data-aos-offset="100"  >Our Teaching Methodology</p>
+            <p align="justify"  data-aos="zoom-in-up" data-aos-offset="100"  >Our Student Work</p>
+            <p align="justify"  data-aos="zoom-in-up" data-aos-offset="100"  >Student Registration Form</p>
+            <p  align="justify" data-aos="zoom-in-up" data-aos-offset="100"  >Workshop</p>
+        
+          </div>
+
+        <div class="w3-col w3-container-fluid f_page m5 l4 mt-1 ">  
+          
+            <h1 class="text-start"  data-aos="zoom-in-up" data-aos-offset="100" >SERVICES PROVIDED</h1>
+            <p align="justify"  data-aos="zoom-in-up" data-aos-offset="100" >Digital Marketing</p>
+            <p  align="justify" data-aos="zoom-in-up" data-aos-offset="100" >Gap Professional cource</p>
+            <p  align="justify" data-aos="zoom-in-up" data-aos-offset="100" >Graphic Designing</p>
+            <p  align="justify" data-aos="zoom-in-up" data-aos-offset="100" >Computer Basic</p>
+            <p  align="justify" data-aos="zoom-in-up" data-aos-offset="100">Web Designing</p>
+          
+       
+          <img  class="F_IMG"   data-aos="zoom-in-up" data-aos-offset="100"   src="img\footfacebook.png" alt="">
+          <img  class="F_IMG"   data-aos="zoom-in-up" data-aos-offset="100"  src="img/footyoutube.png" alt="">
+          <img  class="F_IMG"   data-aos="zoom-in-up" data-aos-offset="100" src="img\footwtsp.png" alt="">
+          <img  class="F_IMG"   data-aos="zoom-in-up" data-aos-offset="100"   src="img/footsnap.png" alt="">
+          <img  class="F_IMG"   data-aos="zoom-in-up" data-aos-offset="100"  src="img/footinsta.png" alt="">
+          </div>
+
+          <div class="w3-col w3-container-fluid f_page m2 l2 text-start">  
+          	
+            <a href="tel:7988602726">798-860-2726
+            <button class="button" style="vertical-align:middle" data-aos="zoom-in-up" data-aos-offset="100"  ><span class="text-white">Contact us</span></button>
+             </a>
+         
+             </div>
+            </div>
+      </div>
+          
+      
+      <div class="w3-col w3-container-fluid m12 l12  text-center text-dark bg-light"> 
+        yachna soni
+        </div>
+
+        </div>
+    </div>
+          <script src="js\script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
